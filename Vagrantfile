@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
     v.cpus = 2
   end
 
-  config.vm.define "ns3-dce" do |server|
+  config.vm.define "ns3-lora" do |server|
     server.vm.box = "bento/ubuntu-19.04"
     # network
     # server.vm.network "private_network", ip: "172.16.0.10", netmask: "255.255.255.0"
